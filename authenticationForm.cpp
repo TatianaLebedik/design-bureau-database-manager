@@ -1,4 +1,4 @@
-#include "authenticationform.h"
+#include "authenticationForm.h"
 #include "ui_authenticationform.h"
 
 AuthenticationForm::AuthenticationForm(QWidget *parent) :

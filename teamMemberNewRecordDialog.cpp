@@ -1,4 +1,4 @@
-#include "teammembernewrecorddialog.h"
+#include "teamMemberNewRecordDialog.h"
 #include "ui_teammembernewrecorddialog.h"
 
 TeamMemberNewRecordDialog::TeamMemberNewRecordDialog(QSqlDatabase db, QWidget *parent) :

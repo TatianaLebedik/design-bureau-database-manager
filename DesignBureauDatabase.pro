@@ -14,28 +14,37 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    authenticationform.cpp \
-    allinfonewrecorddialog.cpp \
-    customernewrecorddialog.cpp \
-    devicenewrecorddialog.cpp \
-    teammembernewrecorddialog.cpp \
-    employeenewrecorddialog.cpp \
-    positionnewrecorddialog.cpp
+    allInfoNewRecordDialog.cpp \
+    authenticationForm.cpp \
+    contractDetailsDialog.cpp \
+    customerNewRecordDialog.cpp \
+    deviceNewRecordDialog.cpp \
+    employeeNewRecordDialog.cpp \
+    positionNewRecordDialog.cpp \
+    teamMemberNewRecordDialog.cpp
 
 HEADERS  += mainwindow.h \
-    authenticationform.h \
-    allinfonewrecorddialog.h \
-    customernewrecorddialog.h \
-    devicenewrecorddialog.h \
-    teammembernewrecorddialog.h \
-    employeenewrecorddialog.h \
-    positionnewrecorddialog.h
+    allInfoNewRecordDialog.h \
+    authenticationForm.h \
+    contractDetailsDialog.h \
+    customerNewRecordDialog.h \
+    deviceNewRecordDialog.h \
+    employeeNewRecordDialog.h \
+    positionNewRecordDialog.h \
+    teamMemberNewRecordDialog.h
 
 FORMS    += mainwindow.ui \
-    authenticationform.ui \
-    allinfonewrecorddialog.ui \
-    customernewrecorddialog.ui \
-    devicenewrecorddialog.ui \
-    teammembernewrecorddialog.ui \
-    employeenewrecorddialog.ui \
-    positionnewrecorddialog.ui
+    allInfoNewRecordDialog.ui \
+    authenticationForm.ui \
+    contractDetailsDialog.ui \
+    customerNewRecordDialog.ui \
+    deviceNewRecordDialog.ui \
+    employeeNewRecordDialog.ui \
+    positionNewRecordDialog.ui \
+    teamMemberNewRecordDialog.ui
+
+RESOURCES += \
+    resourse.qrc
+
+DISTFILES += \
+    .gitignore

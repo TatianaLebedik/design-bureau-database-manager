@@ -1,4 +1,4 @@
-#include "devicenewrecorddialog.h"
+#include "deviceNewRecordDialog.h"
 #include "ui_devicenewrecorddialog.h"
 
 DeviceNewRecordDialog::DeviceNewRecordDialog(QSqlDatabase db, QWidget *parent) :

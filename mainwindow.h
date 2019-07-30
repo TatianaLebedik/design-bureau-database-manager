@@ -14,12 +14,13 @@
 #include "QSignalMapper"
 #include "QObject"
 
-#include "allinfonewrecorddialog.h"
-#include "customernewrecorddialog.h"
-#include "devicenewrecorddialog.h"
-#include "teammembernewrecorddialog.h"
-#include "employeenewrecorddialog.h"
-#include "positionnewrecorddialog.h"
+#include "allInfoNewRecordDialog.h"
+#include "customerNewRecordDialog.h"
+#include "deviceNewRecordDialog.h"
+#include "teamMemberNewRecordDialog.h"
+#include "employeeNewRecordDialog.h"
+#include "positionNewRecordDialog.h"
+#include "contractDetailsDialog.h"
 
 namespace Ui {
 class MainWindow;
@@ -70,6 +71,9 @@ private slots:
     void on_create_position_pushButton_clicked();
 
     void on_actionPositions_triggered();
+
+    void on_contract_details_pushButton_clicked();
+
 
 private:
     QSqlDatabase db;

@@ -1,4 +1,4 @@
-#include "positionnewrecorddialog.h"
+#include "positionNewRecordDialog.h"
 #include "ui_positionnewrecorddialog.h"
 
 PositionNewRecordDialog::PositionNewRecordDialog(QSqlDatabase db, QWidget *parent) :

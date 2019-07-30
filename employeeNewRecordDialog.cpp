@@ -1,4 +1,4 @@
-#include "employeenewrecorddialog.h"
+#include "employeeNewRecordDialog.h"
 #include "ui_employeenewrecorddialog.h"
 
 EmployeeNewRecordDialog::EmployeeNewRecordDialog(QSqlDatabase db, QWidget *parent) :

@@ -1,2 +1,23 @@
-<RCC/>
-
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/icons8-user-groups-50.png</file>
+        <file>img/icons8-send-job-list-50.png</file>
+        <file>img/icons8-send-job-list-50 (1).png</file>
+        <file>img/icons8-profiles-50.png</file>
+        <file>img/icons8-product-50.png</file>
+        <file>img/icons8-product-50 (1).png</file>
+        <file>img/icons8-permanent-job-50.png</file>
+        <file>img/icons8-name-tag-50.png</file>
+        <file>img/icons8-job-50.png</file>
+        <file>img/icons8-edit-node-filled-50.png</file>
+        <file>img/icons8-edit-node-50.png</file>
+        <file>img/icons8-device-manager-50.png</file>
+        <file>img/icons8-cv-50.png</file>
+        <file>img/icons8-customer-50.png</file>
+        <file>img/icons8-crowdfunding-50.png</file>
+        <file>img/icons8-contract-50.png</file>
+        <file>img/icons8-contract-26.png</file>
+        <file>img/icons8-box-50.png</file>
+        <file>img/icons8-demand-50.png</file>
+    </qresource>
+</RCC>

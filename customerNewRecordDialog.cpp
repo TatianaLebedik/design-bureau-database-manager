@@ -1,4 +1,4 @@
-#include "customernewrecorddialog.h"
+#include "customerNewRecordDialog.h"
 #include "ui_customernewrecorddialog.h"
 
 CustomerNewRecordDialog::CustomerNewRecordDialog(QSqlDatabase db, QWidget *parent) :

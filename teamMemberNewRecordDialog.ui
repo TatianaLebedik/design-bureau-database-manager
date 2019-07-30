@@ -9,27 +9,64 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>340</width>
-    <height>180</height>
+    <width>395</width>
+    <height>257</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>395</width>
+    <height>257</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>395</width>
+    <height>257</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>New Team Member</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
+   <item row="2" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/rec/img/icons8-user-groups-50.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
     <widget class="QGroupBox" name="groupBox_4">
      <property name="title">
       <string/>
      </property>
      <layout class="QGridLayout" name="gridLayout_2">
-      <item row="2" column="0">
-       <widget class="QLabel" name="label_16">
-        <property name="text">
-         <string>project</string>
-        </property>
-       </widget>
-      </item>
       <item row="0" column="0">
        <widget class="QLabel" name="label_14">
         <property name="text">
@@ -44,25 +81,47 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="1" colspan="2">
-       <widget class="QComboBox" name="team_employee_comboBox"/>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>project</string>
+        </property>
+       </widget>
       </item>
       <item row="1" column="1" colspan="2">
-       <widget class="QComboBox" name="team_position_comboBox"/>
+       <widget class="QComboBox" name="team_position_comboBox">
+        <property name="font">
+         <font>
+          <family>Tibetan Machine Uni</family>
+         </font>
+        </property>
+       </widget>
       </item>
       <item row="2" column="1" colspan="2">
-       <widget class="QComboBox" name="team_project_number_comboBox"/>
+       <widget class="QComboBox" name="team_project_number_comboBox">
+        <property name="font">
+         <font>
+          <family>Tibetan Machine Uni</family>
+         </font>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="2">
+       <widget class="QComboBox" name="team_employee_comboBox">
+        <property name="font">
+         <font>
+          <family>Tibetan Machine Uni</family>
+         </font>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
    </item>
-   <item row="1" column="0">
-    <widget class="QDialogButtonBox" name="buttonBox">
+   <item row="1" column="0" colspan="2">
+    <widget class="Line" name="line">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
      </property>
     </widget>
    </item>

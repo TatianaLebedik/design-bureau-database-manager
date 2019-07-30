@@ -123,8 +123,8 @@ int MainWindow::set_navigation_mapper(int buttonID)
 //create and delete records
 void MainWindow::on_create_contract_PushButton_clicked()
 {
+    on_last_pushButton_clicked();
     AllInfoNewRecordDialog *dialog = new AllInfoNewRecordDialog(db);
-
     if(dialog->exec()){
     ui->tableView->setModel(contract_model());
     }
@@ -292,9 +292,9 @@ QSqlTableModel* MainWindow::customer_model()
     model->setTable("customers");
     model->setSort(0,Qt::AscendingOrder);
     model->select();
-    model->setHeaderData(0, Qt::Horizontal, QObject::tr("head_name"));
+    model->setHeaderData(0, Qt::Horizontal, QObject::tr("head name"));
     model->setHeaderData(1, Qt::Horizontal, QObject::tr("address"));
-    model->setHeaderData(2, Qt::Horizontal, QObject::tr("checking_account"));
+    model->setHeaderData(2, Qt::Horizontal, QObject::tr("checking account"));
     model->setHeaderData(3, Qt::Horizontal, QObject::tr("telephone"));
 
     mapper->setModel(model);
@@ -411,3 +411,10 @@ QSqlTableModel* MainWindow::position_model()
     return model;
 }
 
+void MainWindow::on_contract_details_pushButton_clicked()
+{
+    ContractDetailsDialog *dialog = new ContractDetailsDialog(db, ui->tableView->currentIndex().row() + 1);
+    if(dialog->exec()){
+    }
+
+}

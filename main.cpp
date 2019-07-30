@@ -1,4 +1,4 @@
-#include "authenticationform.h"
+#include "authenticationForm.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
